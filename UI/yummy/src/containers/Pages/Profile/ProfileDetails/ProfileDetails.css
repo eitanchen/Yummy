@@ -1,0 +1,13 @@
+.BookDetails{
+    background-image: url(../../../../resources/images/ProfilePageImg/profile-page-book.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    max-width:1000000px;
+    background-size: cover;
+    /*background-size: auto;*/
+}
+
+.Details{
+    padding: 10%;
+    text-align: left;
+}

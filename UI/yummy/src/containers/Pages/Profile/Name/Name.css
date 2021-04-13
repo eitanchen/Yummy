@@ -1,0 +1,40 @@
+.Name{
+    font-size: 40px;
+    font-family: "Comic Sans MS";
+    color: black;
+    position: center;
+    margin-right: 10%;
+    text-shadow: 5px 5px 5px gray, 0 0 1em blue, 0 0 0.5em blue;
+    width: 91%;
+    height: 100%;
+    animation: moveInBottom 3s ease-in-out infinite;
+}
+
+@keyframes moveInBottom {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-1em);
+    }
+
+    40% {
+        transform: translateX(0.5em);
+    }
+
+    60% {
+        transform: translateX(-0.25em);
+    }
+
+    80% {
+        transform: translateX(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}

@@ -1,0 +1,61 @@
+.Profile {
+    display: flex;
+    flex-flow: column;
+    justify-contect: space-between;
+    height: 100vh;
+    background-image: url("../../../resources/images/ProfilePageImg/book.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Cover{
+    display: flex;
+    flex-flow: row;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 10px;
+    height: 25vh;
+}
+
+.Book{
+    height: 65vh;
+    align-items: center;
+    /*width: 100vh;*/
+}
+
+.Row{
+    display: flex;
+    flex-flow: column;
+}
+
+.Line {
+    height: 4px;
+    background-color: black;
+}
+
+.ProfilePicture{
+    /*float: contour;*/
+    margin-top: 7%;
+    margin-left: 5%;
+    width: 100%;
+    height: 25vh;
+}
+
+/*.Name{*/
+/*    width: 15%;*/
+/*    float: left;*/
+/*}*/
+
+.Button{
+    float: right;
+    width: 15%;
+    justify-contect: space-between;
+    display: flex;
+    flex-flow: column;
+}
+
+.Name{
+    width: 20%;
+}
+
